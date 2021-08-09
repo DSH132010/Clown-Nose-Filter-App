@@ -22,3 +22,18 @@ h3{
        border-color: #000;
     }
 }
+
+canvas{
+    border: 2px dashed #000;
+    animation: example 3s infinite alternate-reverse;
+    
+    @keyframes example {
+        from{
+            box-shadow: 1px 1px 60px red;
+        }
+
+        to{
+            box-shadow: 1px 1px 60px yellow;
+        }
+    } 
+}

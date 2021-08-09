@@ -3,7 +3,7 @@ function preload() {
 }
 
 function setup() {
-    canvas = createCanvas(300, 400);
+    canvas = createCanvas(400, 300);
     canvas.center();
 }
 

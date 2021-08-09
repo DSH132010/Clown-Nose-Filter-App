@@ -25,4 +25,31 @@ h3 {
   color: #000;
   border-color: #000;
 }
+
+canvas {
+  border: 2px dashed #000;
+  animation: example 3s infinite alternate-reverse;
+}
+
+@-webkit-keyframes example {
+  from {
+    -webkit-box-shadow: 1px 1px 60px red;
+            box-shadow: 1px 1px 60px red;
+  }
+  to {
+    -webkit-box-shadow: 1px 1px 60px yellow;
+            box-shadow: 1px 1px 60px yellow;
+  }
+}
+
+@keyframes example {
+  from {
+    -webkit-box-shadow: 1px 1px 60px red;
+            box-shadow: 1px 1px 60px red;
+  }
+  to {
+    -webkit-box-shadow: 1px 1px 60px yellow;
+            box-shadow: 1px 1px 60px yellow;
+  }
+}
 /*# sourceMappingURL=style.css.map */
